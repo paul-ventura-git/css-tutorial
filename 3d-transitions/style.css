@@ -1,0 +1,29 @@
+body {
+  perspective: 1000px; /* How big or small will be the image*/
+}
+
+#a01 {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  transition: transform 1s;
+}
+
+#a01:hover {
+  transform: translateZ(300px); /*Cannot be bigger than the perspective*/
+}
+
+#a02 {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  transition: transform 1s;
+}
+
+#a02:hover {
+  transform: rotateZ(120deg); /*Cannot be bigger than the perspective*/
+  /*transform: rotateX(60deg);*/
+  /*transform: rotateY(60deg);*/
+}

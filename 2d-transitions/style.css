@@ -21,6 +21,8 @@
 #a02:hover {
   transform: scale(1.5, 1.5);
   /*transform: scale(1.5); height and width*/
+  /*transform: scaleX(1.5); height*/ 
+  /*transform: scaleY(1.5); width*/
 }
 
 #a03 {
