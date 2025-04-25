@@ -49,3 +49,19 @@
   /*transform: skewX(-30deg)*/
   /*transform: skewY(200grad)*/
 }
+
+#a05 {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  transition: transform 1s;
+  transform-origin: top; /*default: center; bottom, right, left etc.*/
+  /*transform-origin: 20% 30%;*/
+  /*transform-origin: 50px 100px;*/
+}
+
+#a05:hover {
+  transform: rotate(45deg);
+  /*transform: rotate(1turn)*/
+}
