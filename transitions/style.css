@@ -9,7 +9,9 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  transition-property: background-color, color, border; /* Properties to animate */
   transition-duration: 0.4s; /* Transition duration */
+  transition-delay: 1s; /* Delay before transition starts */
 }
 
 button:hover {
@@ -57,4 +59,74 @@ button:hover {
 
 #a05 {
   transition-timing-function: ease-in-out;
+}
+
+.myDiv {
+  margin: 2em;
+  width: 150px;
+  height: 50px;
+  padding: 10px 15px;
+  background-color: lightseagreen;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 1s;
+}
+
+.background:hover {
+	background-color: green
+}
+
+.color:hover {
+	color: red;
+}
+
+.font-size:hover {
+	font-size: 32px;
+}
+
+.height:hover {
+	height: 120px;
+}
+
+.width:hover {
+	width: 340px;
+}
+
+.letter-spacing:hover {
+	letter-spacing: 5px;
+}
+
+.line-height:hover {
+	line-height: 120px;
+}
+
+.margin-bottom:hover {
+	margin-bottom: 50px;
+}
+
+.margin-top:hover {
+	margin-top: 50px;
+}
+
+.opacity:hover {
+	opacity: .3;
+}
+
+.padding:hover {
+	padding: 20px;
+}
+
+.border-color, .border-width {
+	border: 6px solid green;
+}
+
+.border-color:hover {
+	border-color: red;
+}
+
+.border-width:hover {
+	border-width: 12px;
 }
