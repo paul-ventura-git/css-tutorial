@@ -1,0 +1,51 @@
+#a01 {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  transition: transform 2s;
+}
+
+#a01:hover {
+  transform: translate(-500px, 200px);
+}
+
+#a02 {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  transition: transform 1s;
+}
+
+#a02:hover {
+  transform: scale(1.5, 1.5);
+  /*transform: scale(1.5); height and width*/
+}
+
+#a03 {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  transition: transform 1s;
+}
+
+#a03:hover {
+  transform: rotate(180deg);
+  /*transform: rotate(1turn)*/
+}
+
+#a04 {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  transition: transform 1s;
+}
+
+#a04:hover {
+  transform: skew(20deg, 40deg);
+  /*transform: skewX(-30deg)*/
+  /*transform: skewY(200grad)*/
+}
